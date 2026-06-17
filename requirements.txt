@@ -1,0 +1,13 @@
+# Core demo runs with the Python standard library only.
+# Install the extras below to enable the production backends.
+
+# API service
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.0
+
+# Real sentence embeddings (optional - falls back to hashing embedder if absent)
+# sentence-transformers>=2.6
+
+# LLM fallback backend (optional - set OPENAI_API_KEY to enable)
+# openai>=1.30
